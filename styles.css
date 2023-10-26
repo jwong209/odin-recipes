@@ -1,5 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: #eee;
+    background: #fff9e8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.75rem;
   }
+
+/* Navigation bar */
+nav {
+  background-color: #9a592b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 10px 30px;
+  color: white;
+
+  }
+#navlinks {
+  display: flex;
+  justify-content: flex-end;
+}
+#logo {
+  object-fit: cover;
+  max-width: 100px;
+}
+/* */
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+#top {
+  text-align: center;
+}
+
+a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+.inline {
+  display: inline-block;
+
+}
+.imggroup {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 80%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+}
+/* Pizza Skulls */
+.pizza_skulls {
+  max-width: 600px;
+}
+
+main {
+  margin: 0 auto;
+}
+.content {
+  max-width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+/* Footer */
+footer{
+  padding: 40px;
+  background-color: #9a592b;
+  color: white;
+  margin-top: auto;
+}
+#footerlinks {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+.copyright {
+  text-align: center;
+
+}
